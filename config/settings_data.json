@@ -48,14 +48,7 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
+              "heading": "Kundeservice",
               "menu": "footer"
             }
           },
@@ -70,7 +63,6 @@
         "block_order": [
           "41eb4c70-aeec-43f9-89aa-6429631d4330",
           "footer-0",
-          "footer-1",
           "footer-2"
         ],
         "settings": {
