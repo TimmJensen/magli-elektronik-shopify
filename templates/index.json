@@ -37,7 +37,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/intel-12th-gen-core-6-16x9.jpg.rendition.intel.web.1920.1080.jpg",
         "image_overlay_opacity": 30,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
