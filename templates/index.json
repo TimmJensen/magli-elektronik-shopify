@@ -132,6 +132,72 @@
         "padding_bottom": 36
       }
     },
+    "1644949257ff14b06a": {
+      "type": "collection-list",
+      "blocks": {
+        "1644949257713ade03-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kabinet"
+          }
+        },
+        "1644949257713ade03-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bundkort"
+          }
+        },
+        "1644949257713ade03-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cpu"
+          }
+        },
+        "a8d2114d-3a57-4d71-b336-82c3a989e047": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "grafikkort"
+          }
+        },
+        "4f87a122-62c2-43dd-9830-7bf26a02dbbb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "stromforsyning"
+          }
+        },
+        "2094736b-a63f-4ceb-900a-fb339a97e021": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cpu-koling"
+          }
+        },
+        "e41222b6-d036-4549-9fee-2f9c49ccf185": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "netvaerkskort"
+          }
+        }
+      },
+      "block_order": [
+        "1644949257713ade03-2",
+        "1644949257713ade03-0",
+        "1644949257713ade03-1",
+        "a8d2114d-3a57-4d71-b336-82c3a989e047",
+        "4f87a122-62c2-43dd-9830-7bf26a02dbbb",
+        "2094736b-a63f-4ceb-900a-fb339a97e021",
+        "e41222b6-d036-4549-9fee-2f9c49ccf185"
+      ],
+      "settings": {
+        "title": "Byg din computer med Magli",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -199,6 +265,7 @@
     "rich_text",
     "featured_collection",
     "collage",
+    "1644949257ff14b06a",
     "multicolumn"
   ]
 }
