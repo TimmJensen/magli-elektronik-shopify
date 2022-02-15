@@ -38,6 +38,13 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "41eb4c70-aeec-43f9-89aa-6429631d4330": {
+            "type": "text",
+            "settings": {
+              "heading": "Åbningstider",
+              "subtext": "<p><strong>Telefon tider:<\/strong><br\/>Tlf: <a href=\"tel:+4560430000\" target=\"_blank\" title=\"tel:+4560430000\">+45 6034 0000<\/a><br\/>Mandag – Fredag: 17:00 – 21:00<br\/>Lørdag – Søndag: 15:00 - 18:00.<br\/><br\/><strong>E-mail:<\/strong><\/p><p>Du kan altid skrive til os på:<br\/><a href=\"mailto:Kontakt@magli.dk\" target=\"_blank\" title=\"Kontakt Magli's kundeservice\">Kontakt@magli.dk<\/a><br\/><em>( Vi svare også i weekenderne )<\/em><\/p><p><strong>Livechat:<\/strong><\/p><p>Mandag – Fredag: 17:00 – 21:00<br\/>Lørdag - Søndag: 12:00 - 21:00.<\/p>"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -61,6 +68,7 @@
           }
         },
         "block_order": [
+          "41eb4c70-aeec-43f9-89aa-6429631d4330",
           "footer-0",
           "footer-1",
           "footer-2"

@@ -100,44 +100,33 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "smarthome"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
-            "second_image": false
+            "product": "google-nest-learning-thermostat-3rd-generation-kobber",
+            "second_image": true
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "8c67d29d-2ddc-4062-b7a8-e1013d5b7c72": {
+          "type": "product",
           "settings": {
-            "collection": ""
+            "product": "google-nest-dorringeklokke",
+            "second_image": true
           }
         }
       },
       "block_order": [
         "collection-0",
         "product",
-        "collection-1"
+        "8c67d29d-2ddc-4062-b7a8-e1013d5b7c72"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Alt til et ultra smart hjem",
         "desktop_layout": "left",
         "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -149,8 +138,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Hurtig levering!",
+            "text": "<p>Vi afsender samme dag ved bestilling inden kl 18:00. Forventes 1-3 Dages levering på hverdage*.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -158,8 +147,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Fuld tilfredshed",
+            "text": "<p>Hvis du ikke er fuld tilfreds med dit køb, kan du i op til 14 dage, returnere dit køb.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -167,8 +156,17 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Hurtig hjælp",
+            "text": "<p>Vi svarer på din mail inden for 24 timer.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "ac7dc240-835f-41fa-8410-8079244b14ff": {
+          "type": "column",
+          "settings": {
+            "title": "Sikker betaling",
+            "text": "<p>Alt betaling sker under krypterede forhold.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -177,19 +175,20 @@
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "ac7dc240-835f-41fa-8410-8079244b14ff"
       ],
       "settings": {
         "title": "",
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
+        "column_alignment": "left",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "color_scheme": "accent-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -200,7 +199,6 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "video",
     "multicolumn"
   ]
 }
