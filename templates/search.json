@@ -1,10 +1,62 @@
 {
   "sections": {
     "main": {
-      "type": "main-search"
+      "type": "main-search",
+      "settings": {
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false,
+        "article_show_date": true,
+        "article_show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16449630725691f6bc": {
+      "type": "rich-text",
+      "blocks": {
+        "1644963072a6642f92-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fandt du ikke hvad du søgte?",
+            "heading_size": "h1"
+          }
+        },
+        "1644963072a6642f92-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tag gerne kontakt til os, om det er på livechat, e-mail eller per telefon. Så vil vi gøre alt hvad vi kan, for at skaffe det produkt hjem og gøre det til en del af vores sortiment, hvis muligt!<\/p>"
+          }
+        },
+        "a6327a92-8bd9-4124-a99f-9cfe285ce2e0": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kontakt os",
+            "button_link": "shopify:\/\/pages\/kontakt",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1644963072a6642f92-0",
+        "1644963072a6642f92-1",
+        "a6327a92-8bd9-4124-a99f-9cfe285ce2e0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16449630725691f6bc"
   ]
 }
