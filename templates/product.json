@@ -6,12 +6,24 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text_style": "uppercase",
-            "text": "{{ product.vendor }}"
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
           }
         },
         "title": {
-          "type": "title"
+          "type": "title",
+          "settings": {
+          }
+        },
+        "3937b3ef-c1b6-48a4-97d2-5b792f6ab88f": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "Ingen anmeldelser"
+          }
         },
         "caption": {
           "type": "text",
@@ -21,91 +33,127 @@
           }
         },
         "price": {
-          "type": "price"
+          "type": "price",
+          "settings": {
+          }
         },
         "variant_picker": {
-          "type": "variant_picker"
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
         },
         "quantity_selector": {
-          "type": "quantity_selector"
+          "type": "quantity_selector",
+          "settings": {
+          }
         },
         "buy_buttons": {
-          "type": "buy_buttons"
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "32046d01-89fd-4d9d-8d24-a3d7cf33f0a0": {
+          "type": "text",
+          "settings": {
+            "text": "🚚 Ordre afsendes samme dag ved bestilling inden kl 18:00 på hverdage* 🚚",
+            "text_style": "uppercase"
+          }
         },
         "description": {
-          "type": "description"
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
+          "type": "description",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather"
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck"
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler"
+            "heading": "Forsendelse & retur",
+            "icon": "truck",
+            "content": "<p>Vi afsender samme dag ved bestilling <span style=\"text-decoration:underline\">inden kl 18:00<\/span> på hverdage.<\/p><p><\/p><p>Hvis du fortryder dit køb, har du 14 dages fortrydelsesret. <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Du kan læse mere her<\/a>.<\/p>",
+            "page": ""
           }
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart"
+            "heading": "Har du spørgsmål vedr. dette produkt?",
+            "icon": "chat_bubble",
+            "content": "<p>Så kan du altid kontakte os, enden via. Livechat, e-mail eller per telefon.<\/p><p><\/p><p>Telefon: <a href=\"tel:+4560340000\" title=\"tel:+4560340000\">60 34 00 00<\/a><\/p><p>E-mail: <a href=\"mailto:kontakt@magli.dk\" title=\"mailto:kontakt@magli.dk\">Kontakt@magli.dk<\/a><\/p><p><\/p><p>Du finder livechatten nede i højre hjørne af din skærm, ved at trykke på den lyseblå cirkel.<\/p>",
+            "page": ""
           }
         },
         "share": {
-          "type": "share"
+          "type": "share",
+          "settings": {
+            "share_label": "Del med de sociale medier"
+          }
+        },
+        "c266779a-d10e-498e-81c3-2d1b1db18e87": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "3937b3ef-c1b6-48a4-97d2-5b792f6ab88f",
         "caption",
-        "subtitle",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "32046d01-89fd-4d9d-8d24-a3d7cf33f0a0",
         "description",
-        "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "c266779a-d10e-498e-81c3-2d1b1db18e87"
       ],
       "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "medium",
+        "mobile_thumbnails": "hide",
         "hide_variants": true,
-        "padding_bottom": 12
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
+    "16449621461deb4023": {
+      "type": "newsletter",
       "blocks": {
-        "image-with-text-0": {
-          "type": "heading"
+        "1644962146de4de242-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vi ønsker du får de fede tilbud først"
+          }
         },
-        "image-with-text-1": {
-          "type": "text"
+        "1644962146de4de242-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Tilmeld dig Magli's nyhedsbrev og modtag alle vores fede tilbud, direkte i din mailboks.<\/p>"
+          }
+        },
+        "1644962146de4de242-2": {
+          "type": "email_form",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
+        "1644962146de4de242-0",
+        "1644962146de4de242-1",
+        "1644962146de4de242-2"
       ],
       "settings": {
-        "height": "small",
-        "layout": "text_first",
-        "color_scheme": "background-2"
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "multicolumn": {
@@ -114,40 +162,79 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "Free Shipping",
-            "link_label": ""
+            "title": "Hurtig levering!",
+            "text": "<p>Vi afsender samme dag ved bestilling inden kl 18:00. Forventes 1-3 Dages levering på hverdage*.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Hassle-Free Exchanges",
-            "link_label": ""
+            "title": "Fuld tilfredshed",
+            "text": "<p>Hvis du ikke er fuld tilfreds med dit køb, kan du i op til 14 dage, returnere dit køb.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "97b765af-2e90-4896-bf70-5c06d54c7726": {
+          "type": "column",
+          "settings": {
+            "title": "Hurtig hjælp",
+            "text": "<p>Vi svarer på din mail inden for 24 timer.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f5978351-f71a-4617-8db0-596fd2e6d031": {
+          "type": "column",
+          "settings": {
+            "title": "Sikker betaling",
+            "text": "<p>Alt betaling sker under krypterede forhold.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
         "column-0",
-        "column-1"
+        "column-1",
+        "97b765af-2e90-4896-bf70-5c06d54c7726",
+        "f5978351-f71a-4617-8db0-596fd2e6d031"
       ],
       "settings": {
         "title": "",
-        "background_style": "none",
-        "button_label": ""
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true,
+        "color_scheme": "accent-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "heading": "Andre vare du kunne være interesseret i",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
         "image_ratio": "square",
         "show_secondary_image": true,
-        "padding_bottom": 28
+        "show_vendor": true,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "image-with-text",
+    "16449621461deb4023",
     "multicolumn",
     "product-recommendations"
   ]

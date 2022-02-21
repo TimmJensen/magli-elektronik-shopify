@@ -1,10 +1,58 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "settings": {
+      }
+    },
+    "1644962877ff1e8967": {
+      "type": "collection-list",
+      "blocks": {
+        "1644962877a3af7710-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hardware"
+          }
+        },
+        "1644962877a3af7710-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gaming"
+          }
+        },
+        "1644962877a3af7710-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gaming-stationaer"
+          }
+        },
+        "1afb6cc4-ce1f-461d-82af-74c76ade18f5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "smartwatch"
+          }
+        }
+      },
+      "block_order": [
+        "1644962877a3af7710-0",
+        "1644962877a3af7710-1",
+        "1644962877a3af7710-2",
+        "1afb6cc4-ce1f-461d-82af-74c76ade18f5"
+      ],
+      "settings": {
+        "title": "Du kunne måske være interesseret i",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-2",
+        "swipe_on_mobile": true,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1644962877ff1e8967"
   ]
 }
