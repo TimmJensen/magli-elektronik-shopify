@@ -33,7 +33,7 @@
           "logo": "shopify:\/\/shop_images\/Ny_Logo_400x120_Hvid_skift.png",
           "logo_width": 200,
           "logo_position": "middle-left",
-          "menu": "main-menu",
+          "menu": "hovedmenu-v2",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 0
