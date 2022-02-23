@@ -15,16 +15,6 @@
           "settings": {
           }
         },
-        "3937b3ef-c1b6-48a4-97d2-5b792f6ab88f": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "Ingen anmeldelser"
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
@@ -40,12 +30,18 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "dropdown"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
+          }
+        },
+        "f1ec90f6-3db9-466c-9561-224c1e4e22c3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h2> {{ product.price | money }} <\/h3>"
           }
         },
         "buy_buttons": {
@@ -89,28 +85,22 @@
           "settings": {
             "share_label": "Del med de sociale medier"
           }
-        },
-        "c266779a-d10e-498e-81c3-2d1b1db18e87": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "3937b3ef-c1b6-48a4-97d2-5b792f6ab88f",
         "caption",
         "price",
         "variant_picker",
         "quantity_selector",
+        "f1ec90f6-3db9-466c-9561-224c1e4e22c3",
         "buy_buttons",
         "32046d01-89fd-4d9d-8d24-a3d7cf33f0a0",
         "description",
         "collapsible-row-1",
         "collapsible-row-3",
-        "share",
-        "c266779a-d10e-498e-81c3-2d1b1db18e87"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
