@@ -38,12 +38,6 @@
           "settings": {
           }
         },
-        "f1ec90f6-3db9-466c-9561-224c1e4e22c3": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<h2> {{ product.price | money }} <\/h3>"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -53,7 +47,7 @@
         "32046d01-89fd-4d9d-8d24-a3d7cf33f0a0": {
           "type": "text",
           "settings": {
-            "text": "🚚 Ordre afsendes samme dag ved bestilling inden kl 18:00 på hverdage* 🚚",
+            "text": "🚚 Ordre afsendes samme dag ved bestilling inden kl 18:00 på hverdage*",
             "text_style": "uppercase"
           }
         },
@@ -94,7 +88,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "f1ec90f6-3db9-466c-9561-224c1e4e22c3",
         "buy_buttons",
         "32046d01-89fd-4d9d-8d24-a3d7cf33f0a0",
         "description",
